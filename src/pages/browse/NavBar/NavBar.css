@@ -1,0 +1,33 @@
+/* css for navbar */
+.navbar_container {
+      padding: 10px 20px;
+      /* height: 80px; */
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+      background-color: transparent;
+      transition: background-color 0.7s ease;
+      z-index: 1000;
+}
+
+.navbar_title {
+      color: rgb(186, 69, 69);
+      font-weight: bold;
+      cursor: pointer;
+}
+
+/* css for search icon */
+.setting_search-icon {
+      padding: 5px;
+      width: 40px;
+      cursor: pointer;
+}
+
+/* change color for nav when scrool down 20px */
+.navbar_container.scrolled {
+      color: white;
+      background-color: rgba(0, 0, 0, 0.719);
+}

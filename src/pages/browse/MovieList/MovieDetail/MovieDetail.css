@@ -1,0 +1,30 @@
+.MovieDetail_grid_container {
+      height: 420px;
+      margin-top: 50px;
+      padding-left: 20px;
+      color: white;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 15px;
+      position: fixed;
+      top: 15px;
+      left: 0;
+      right: 0;
+      background-color: black;
+      overflow: scroll;
+}
+
+.MovieDetail_item_infor-title {
+      padding: 20px 0;
+      border-bottom: 1px solid white;
+}
+
+.MovieDetail_close {
+      position: absolute;
+      top: 0;
+      right: 0;
+}
+
+.MovieDetail-trailer {
+      /* background-color: blue; */
+}

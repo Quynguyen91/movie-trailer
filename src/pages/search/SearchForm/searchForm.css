@@ -1,0 +1,56 @@
+
+.SearchForm {
+      margin: 100px auto 50px;
+      width: 40%;
+      background-color: white;
+      border-radius: 5px;
+}
+
+/* css for input section */
+.SearchForm_input {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2px solid rgb(19, 136, 245);
+}
+
+.SearchForm_input > input {
+      width: 100%;
+      border: none;
+
+}
+
+/* remove for the input's outline */
+.SearchForm_input > input:focus {
+      outline: none;
+}
+
+.searchIcon:hover{
+      cursor: pointer;
+}
+
+/* css for search button section */
+
+.SearchForm_btn {
+      display: flex;
+      padding: 30px 20px;
+      justify-content: end;
+}
+
+.SearchForm_btn > button {
+      padding: 5px 10px;
+      border: none;
+      margin-left: 10px;
+      font-weight: 500;
+}
+
+.btnSearch {
+      background-color: rgb(21, 164, 211);
+      color: white;
+      cursor: pointer;
+}
+
+.btnReset {
+      background-color: white;
+      cursor: pointer;
+}
